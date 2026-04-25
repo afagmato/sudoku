@@ -1,0 +1,2 @@
+# Afegeix les dependències aquí, ex:
+# requests==2.31.0
