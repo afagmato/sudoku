@@ -1,49 +1,49 @@
-# Nom del Projecte Python
+# Sudoku
 
-> Descripció curta i atractiva del projecte — una o dues frases.
+> Generador i joc de Sudoku per terminal amb tres nivells de dificultat.
 
 ---
 
-## 🛠️ Tecnologies
+## Funcionalitats
+
+- Generació aleatòria d'un sudoku vàlid en cada partida
+- Tres nivells de dificultat: fàcil, mitjà i difícil
+- Validació de moviments en temps real
+- Detecció automàtica de victòria
+
+## Tecnologies
 
 - Python 3.x
-- (Llibreries: afegeix les que uses, ex: `requests`, `pandas`, etc.)
+- Sense dependències externes
 
-## 📦 Instal·lació
+## Com executar-lo
 
 1. Clona el repositori:
    ```bash
-   git clone https://github.com/el-teu-usuari/nom-del-projecte.git
-   cd nom-del-projecte
+   git clone https://github.com/afagmato/sudoku.git
+   cd sudoku
    ```
 
-2. Instal·la les dependències:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Executa el programa:
+2. Executa el joc:
    ```bash
    python main.py
    ```
 
-## ✨ Funcionalitats
+3. Tria el nivell i introdueix fila, columna i número per jugar.
 
-- (Descriu aquí les funcionalitats principals)
-- ...
+## Com funciona
 
-## 📁 Estructura del projecte
+El taulell es genera amb un algorisme de **backtracking recursiu**: omple la graella 9x9 provant números aleatoris i enretirant-se quan troba un conflicte. Un cop generat, s'amaguen caselles segons el nivell triat.
+
+## Estructura
 
 ```
-nom-del-projecte/
+sudoku/
 ├── main.py
-├── requirements.txt
-├── README.md
-└── src/
-    └── ...
+└── README.md
 ```
 
-## 👤 Autor
+## Autor
 
-**El teu nom**
-- GitHub: [@el-teu-usuari](https://github.com/el-teu-usuari)
+**afagmato**
+- GitHub: [@afagmato](https://github.com/afagmato)
