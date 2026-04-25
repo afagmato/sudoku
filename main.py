@@ -1,3 +1,4 @@
+import random
 def crear_taulell():
     return [[0] * 9 for _ in range(9)]
 
@@ -31,8 +32,6 @@ def es_valid(taulell, fila, col, num):
                 return False
     
     return True
-
-import random
 
 def omplir_taulell(taulell):
     for fila in range(9):
